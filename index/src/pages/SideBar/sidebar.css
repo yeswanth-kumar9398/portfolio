@@ -1,0 +1,40 @@
+/* Sidebar styles */
+
+.btnHighlight {
+    background-color: rgb(8, 168, 114);
+  
+    
+  }
+  .sidebar{
+    z-index: 2;
+    background: hsla(55, 90%, 67%, 1);
+    background: linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7EA60", endColorstr="#3CF2DE", GradientType=1 );
+    }
+
+  
+  .Home{
+    color: #8b8a91;
+  }
+
+  .lore{
+    position: absolute;
+    z-index: 1;
+  }
+
+  .hamberger{
+    z-index: 3;
+  }
+  
+
+  
+
+
+
+  /* 320px — 480px: Mobile devices.
+  481px — 768px: iPads, Tablets.
+  769px — 1024px: Small screens, laptops.
+  1025px — 1200px: Desktops, large screens.
+  1201px and more — Extra large screens, TV. */
